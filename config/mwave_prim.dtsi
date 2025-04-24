@@ -14,6 +14,11 @@ macros {
         tap-ms = <1>;
         bindings = <&out OUT_BLE &bt BT_SEL 1 &adv_mode ADV_ON>;
     )
+    ZMK_MACRO(bt_clear,
+        wait-ms = <1>;
+        tap-ms = <1>;
+        bindings = <&bt BT_CLR>;
+    )
     #include "version.dtsi"
 };
 
@@ -35,5 +40,16 @@ endpoint_sideband_behaviors {
     third_toggle_sideband: third_toggle_sideband {
         column = <2>;
         bindings = <&ble_one>;
+    };
+};
+
+behaviors {
+    bth: bt_hold {
+        compatible = "zmk,behavior-hold-tap";
+        #binding-cells = <2>;
+        flavor = "tap-preferred";
+        tapping-term-ms = <2000>;
+        bindings = <&bt_clear>, <&none>;
+        display-name = "BT-hold-clear";
     };
 };
