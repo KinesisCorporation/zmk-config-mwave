@@ -20,5 +20,8 @@ manifest:
     - name: zmk-settings-reset-bootloader-module
       remote: refil
       revision: main
+    - name: position-trigger
+      url: https://github.com/ReFil/refil-zmk-behaviour-modules
+      revision: key-position-trigger
   self:
     path: config
