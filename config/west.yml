@@ -16,7 +16,7 @@ manifest:
     - name: MWave-zephyr-module
       remote: KinesisCorporation
       import: config/west.yml
-      revision: main
+      revision: clique-macro-test
     - name: zmk-settings-reset-bootloader-module
       remote: refil
       revision: main
