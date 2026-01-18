@@ -11,7 +11,7 @@ manifest:
   projects:
     - name: zmk
       remote: refil
-      revision: disable-endpoint-fallback
+      revision: mwave
       import: app/west.yml
     - name: MWave-zephyr-module
       remote: KinesisCorporation
