@@ -43,35 +43,5 @@
 &kp LCTRL       &kp LEFT_ALT &kp LEFT_GUI   &kp SPACE  &kp KP_N0   &kp RIGHT_GUI   &kp KP_DOT  &kp RCTRL  &kp LEFT     &kp DOWN       &kp RIGHT
             >;
         };
-
-        extra1 {
-            display-name = "Blue";
-            status = "reserved";
-        };
-
-        extra2 {
-            display-name = "Green";
-            status = "reserved";
-        };
-
-        extra3 {
-            display-name = "Red";
-            status = "reserved";
-        };
-
-        extra4 {
-            display-name = "Purple";
-            status = "reserved";
-        };
-
-        extra5 {
-            display-name = "Cyan";
-            status = "reserved";
-        };
-
-        extra6 {
-            display-name = "Yellow";
-            status = "reserved";
-        };
     };
 };
