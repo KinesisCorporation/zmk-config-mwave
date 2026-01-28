@@ -1,23 +1,9 @@
 include:
   - board: mwave_33
-    snippet: studio-rpc-usb-uart
     artifact-name: ansi-windows-high-sec
   - board: mwave_33
-    snippet: studio-rpc-usb-uart
-    artifact-name: ansi-windows
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: ansi-mac-high-sec
+    cmake-args: -DKEYMAP_FILE=/tmp/zmk-config/config/mwave_33_mac.keymap
   - board: mwave_33
-    snippet: studio-rpc-usb-uart
-    artifact-name: ansi-mac
-    cmake-args: -DKEYMAP_FILE=/tmp/zmk-config/config/mwave_33_mac.keymap -DCONFIG_ZMK_STUDIO=y
-  - board: mwave_33
-    snippet: studio-rpc-usb-uart
-    artifact-name: iso-windows
-    cmake-args: -DKEYMAP_FILE=/tmp/zmk-config/config/mwave_33_iso.keymap -DCONFIG_ZMK_STUDIO=y
-  - board: mwave_33
-    snippet: studio-rpc-usb-uart zmk-usb-logging
-    artifact-name: ansi-windows-logging
-  - board: mwave_33
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_SETTINGS_RESET_ON_START=y -DCONFIG_ZMK_STUDIO=y
-    artifact-name: ansi-settings-reset
+    artifact-name: iso-windows-high-sec
+    cmake-args: -DKEYMAP_FILE=/tmp/zmk-config/config/mwave_33_iso.keymap
