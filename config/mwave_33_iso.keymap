@@ -36,6 +36,19 @@
 &kp CLCK   &kp A     &kp S     &kp D   &kp F   &kp G              &kp H      &kp J      &kp K   &kp L      &kp SEMI     &kp SQT    &kp NUHS            &kp RET     &kp PG_UP
 &kp LSHFT  &kp NUBS  &kp Z     &kp X   &kp C   &kp V   &kp B      &kp N      &kp M   &kp COMMA  &kp DOT      &kp FSLH   &kp RSHFT                      &kp UP      &kp PG_DN
 &kp LCTRL  &kp LGUI  &kp LALT                          &kp SPACE  &kp SPACE          &kp RALT   &kp K_CMENU  &kp RCTRL  &kp LEFT                       &kp DOWN    &kp RIGHT
+&none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none 
+&none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none 
+&none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none 
+&none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none 
+&none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none 
+&none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none 
+&none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none 
+&none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none 
+&none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none 
+&none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none 
+&none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none 
+&none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none &none 
+
             >;
         };
 
@@ -48,6 +61,19 @@
 &studio_unlock  &kp A         &kp S         &kp D         &kp F       &kp G                   &kp H         &kp KP_N4     &kp KP_N5    &kp KP_N6      &kp KP_PLUS      &kp SQT    &kp NUHS                          &kp ENTER       &kp PAGE_UP
 &kp LEFT_SHIFT  &kp NUBS     &kp Z &kp X         &kp C         &kp V       &kp B                   &kp N          &kp KP_N1    &kp KP_N2      &kp KP_N3        &kp KP_ENTER  &kp RIGHT_SHIFT                                   &kp UP_ARROW    &kp PAGE_DOWN
 &kp LCTRL       &kp LEFT_GUI  &kp LEFT_ALT                                          &kp SPACE     &kp KP_N0   &kp RIGHT_ALT  &kp KP_DOT       &kp RCTRL     &kp LEFT_ARROW                                    &kp DOWN        &kp RIGHT_ARROW
+&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+
             >;
         };
 
