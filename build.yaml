@@ -2,7 +2,7 @@ include:
   - board: mwave_33
     snippet: studio-rpc-usb-uart
     artifact-name: ansi-windows
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
   - board: mwave_33
     snippet: studio-rpc-usb-uart
     artifact-name: ansi-mac
