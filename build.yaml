@@ -6,11 +6,11 @@ include:
   - board: mwave_33
     snippet: studio-rpc-usb-uart
     artifact-name: ansi-mac
-    cmake-args: -DKEYMAP_FILE=/tmp/zmk-config/config/mwave_33_mac.keymap -DCONFIG_ZMK_STUDIO=y
+    cmake-args: -DKEYMAP_FILE=/tmp/zmk-config/config/mwave_33_mac.keymap -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
   - board: mwave_33
     snippet: studio-rpc-usb-uart
     artifact-name: iso-windows
-    cmake-args: -DKEYMAP_FILE=/tmp/zmk-config/config/mwave_33_iso.keymap -DCONFIG_ZMK_STUDIO=y
+    cmake-args: -DKEYMAP_FILE=/tmp/zmk-config/config/mwave_33_iso.keymap -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
   - board: mwave_33
     snippet: studio-rpc-usb-uart zmk-usb-logging
     artifact-name: ansi-windows-logging
